@@ -19,7 +19,6 @@ camera.position.z = 2;
 
 // Scene
 const scene = new THREE.Scene();
-
 // Camera control
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
